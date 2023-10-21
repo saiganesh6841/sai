@@ -1,0 +1,18 @@
+.div1{
+    text-align: justify;
+    text-indent: 30px;
+    background-color: aqua;
+}
+.p1{
+    text-indent: 30px;
+    color: brown;
+}
+div{
+    text-indent: 30px;
+}
+#my{
+    text-decoration:underline red dotted 2px;
+}
+body{
+    background-color:darksalmon;
+}

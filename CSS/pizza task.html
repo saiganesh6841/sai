@@ -1,0 +1,291 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            div a{
+                text-decoration: none;
+                color: white;
+                padding: 20px;
+                font-size: 30px;
+               
+
+            }
+            .navgation{
+                padding: 30px;
+                background-color: black;
+                position: fixed;
+                width: 100%;
+            }
+            div a:hover{
+                background-color: blue;
+                color: black;
+            }
+            div a:active{
+                color: yellow;
+            }
+            .placing img{
+                width: 100%;
+                height: 100vh;
+
+            }
+           .asdf{
+            color:rgb(19, 190, 190);
+            font-size: 40px;
+            font-family: cursive;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            text-shadow: 2px 2px;
+           }
+           h1{
+            text-align: center;
+            font-size: 40px;
+            color: red;
+            padding: 10px;
+            border: 2px solid black;
+            display: inline-block;
+            margin-left: 50%;
+            background-color:yellow;
+           }
+           img{
+            width: 20px;
+            height: 20px;
+           }
+          .Menu{
+            background-color: gray;
+            
+          }
+          table,tr{
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+            height: 10vh;
+          }
+          th{
+            font-size: 50px;
+           text-indent: 600px;
+          }
+          .data{
+            font-size: 30px;
+          }
+          .data+td{
+            font-style: italic;
+            color: yellowgreen;
+          }
+          tr:hover{
+            color: tomato;
+          }
+          h2{
+            padding: 10px;
+            color: rgb(25, 56, 78);
+            text-align: center;
+            font-size: 50px;
+          }
+          .about{
+            background-color: tomato;
+            color: white;
+            font-size: 25px;
+          }
+          .hjkl{
+            width: 50vh;
+            height: 50vh;
+          }
+          .imiv{
+            width: 50%;
+            height: 100%;
+            text-align: center;
+            margin-left: 500px;
+          }
+          .opening{
+            font-size: 40px;
+            margin-left: 400px;
+          }
+          .weak{
+            font-size: 30px;
+            margin-left: 400px;
+          }
+          .time{
+            font-size: 30px;
+            display: inline-block;
+            position: absolute;
+            top: 325%;
+            left: 50%;
+          }
+          .contact{
+            background-color: grey;
+          }
+          #linking{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            font-size: 50px;
+            padding: 15px;
+
+          }
+          .cpara{
+            text-align: center;
+            font-size:30px ;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+          }
+          .span{
+            text-align: center;
+          }
+          form{
+            text-align: center;
+          }
+          input[type=text], select{
+            width: 50%;
+            font-size: 25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 15px;
+            border: 2px solid black;
+            border-radius: 9px;
+
+          }
+          input[type=number], select{
+            width: 50%;
+            font-size: 25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 15px;
+            border: 2px solid black;
+            border-radius: 9px;
+
+          }
+          input[type=datetime-local], select{
+            width: 50%;
+            font-size: 25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 15px;
+            border: 2px solid black;
+            border-radius: 9px;
+
+          }
+          input[type=submit], select{
+            width: 50%;
+            font-size: 25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 15px;
+            border: 2px solid black;
+            border-radius: 9px;
+          }
+          input[type=submit]:hover{
+            background-color: darkgrey;
+          }
+          footer{
+            text-align: center;
+            font-size: 70px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 50px;
+            color: wheat;
+            background-color: black;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="navgation">
+            <div class="navbar">
+                <a href="">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#linking">Contact</a>
+            </div>
+        </div>
+        <div class="placing img">
+            <img src="https://www.engelvoelkers.com/wp-content/uploads/2014/07/pizza-stock.jpg" alt="" width="100%">
+             <div class="asdf">
+                <span class="thin">THIN</span><br>
+                <span class="crust">CRUST PIZZA</span>
+             </div>
+             <h1 id="menu">THE MENU</h1>
+        <div class="Menu">
+           
+           <table>
+            <tr>
+                <th>PIZZA</th>
+            </tr>
+            <tr>
+                <td class="data">Margherita
+                    </td>
+                    <td>Fresh tomatoes, fresh mozzarella, fresh basil</td>
+                    <td class="data">$12.50</td>
+            </tr>
+            <tr>
+                <td class="data">Formaggio </td>
+                  <td>  Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</td>
+                    <td class="data">$15.50</td>
+            </tr>
+            <tr>
+                <td class="data">Chicken</td>
+                    <td>Fresh tomatoes, mozzarella, chicken, onions
+                    </td>
+                    <td class="data">$17.00</td>
+            </tr>
+            <tr>
+                <td class="data">Pineapple'o'clock </td>
+                   <td> Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+                    </td>
+                    <td class="data">$16.50</td>
+            </tr>
+            <tr>
+                <td class="data">Meat Town </td>
+                     <td>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken
+                    </td>
+                    <td class="data">$20.00</td>
+            </tr>
+           </table>
+        </div>
+        <div class="about">
+            <h2 id="about">About</h2>
+            <div>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <br><br>
+                The Chef? Mr. Italiano himselfChef
+                <br><br>
+                We are proud of our interiors.</div>
+                <div class="imiv"><img src="https://www.w3schools.com/w3images/onepage_restaurant.jpg" alt="" height="50px" class="hjkl"></div>
+                <div class="opening">Opening Hours</div><br><br><br>
+                <div class="weak">Mon & Tue CLOSED <br><br>
+
+                    Wednesday 10.00 - 24.00 <br><br>
+                    
+                    Thursday 10:00 - 24:00</div>
+                    <div class="time">
+                      Friday 10:00 - 12:00
+                          <br><br>
+                      Saturday 10:00 - 23:00
+                         <br><br>
+                      Sunday Closed
+                    </div><br><br>
+        </div>
+      <div>
+        <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
+      </div>
+      <div class="contact">
+        <div id="linking">CONTACT</div>
+        <div class="cpara">Find us at some address at some place or call us at 05050515-122330
+          <br><br>
+
+          FYI! We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</div>
+        <div class="span">
+          <span style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 35px;text-align: center;">Reserve</span> <span style="text-align: center; font-size:30px ; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">a table, ask for today's special or just send us a message:</span>
+        </div>
+        <br><br>
+        <form action="">
+          <input type="text" name="name" placeholder="NAME"><br><br>
+          <input type="number" name="how" placeholder="HOW MANY PEOPLE" min="1" max="8"><br><br>
+          <input type="datetime-local" name="" id=""><br><br>
+          <input type="text" name="message" placeholder="MESSAGE/SPECIAL REQUIREMENTS"><br><br>
+          <input type="submit" value="SEND MESSAGE">
+        </form>
+        <br><br><br>
+      </div>
+      <footer>
+        POWERED BY SAI
+        
+      </footer>
+        
+    </body>
+    </html>

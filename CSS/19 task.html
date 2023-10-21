@@ -1,0 +1,73 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=\, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        li::before{
+            content: url(./images/grade_FILL0_wght400_GRAD0_opsz24.png);
+        }
+        li{
+            list-style-type: none;
+            font-size: 30px;
+        }
+       table{
+        width: 100%;
+        
+       }
+       table,th,td,tr{
+        border: 3px solid black;
+        border-collapse: collapse;
+       }
+       th{
+        height: 50px;
+        font-size: 25px;
+        text-align: left;
+       }
+       td,tr{
+        text-align: center;
+        font-size: 20px;
+        height: 25px;
+       }
+       tr:hover{
+        background-color: green;
+
+       }
+       tr:nth-child(1){
+        background-color: grey;
+       }
+        </style>
+    </head>
+    <body>
+        <h1>The Stars</h1>
+        <li>Prabhas</li>
+        <li>NTR</li>
+        <li>Ram Charan</li>
+        <li>Pawan Kalyan</li>
+        <hr>
+        <table>
+            <tr>
+                <th>Stars</th>
+                <th>Movies</th>
+                <th>Directed by</th>
+            </tr>
+            <tr>
+                <td>Prabhas</td>
+                <td>Bahubali</td>
+                <td>S.S Rajamouli</td>
+            </tr>
+            <tr>
+                <td>NTR</td>
+                <td>RRR</td>
+                <td>S.S Rajamouli</td>
+            </tr>
+            <tr>
+                <td>Pawan Kalyan</td>
+                <td>Gabar Singh</td>
+                <td>Harish Shankar</td>
+            </tr>
+        </table>
+    </body>
+    </html>
